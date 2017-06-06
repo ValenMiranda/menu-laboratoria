@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.contenedor .navbar{
+	background-color: #00487A;
+}
+
+.contenedor .navbar ul,
+.contenedor .desplegable ul{
+	list-style: none;
+	padding: 0;
+}
+
+.contenedor .navbar a,
+.contenedor .menu a,
+.contenedor .desplegable a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-elemento:hover{
+    background-color: #0065AB;
+    color: white
+}
+
+.desplegable{
+    display: none;
+}
+
+.contenedor .menu,
+.contenedor .desplegable{
+	background-color: #454545;
+}
+
+.contenedor .menu a:hover,
+.contenedor .desplegable a:hover{
+	background-color: #6B6B6B;
+}
