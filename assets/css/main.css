@@ -1,49 +1,37 @@
 *{
 	margin: 0;
+	padding: 0;
 }
 
 body{
 	font-family: 'Roboto', sans-serif;
 	width: 100%;
-	margin: 0 auto;
 }
 
-.contenedor .navbar{
+.navbar{
 	background-color: #00487A;
-}
-
-.contenedor .navbar ul,
-.contenedor .desplegable ul{
-	list-style: none;
-	padding: 0;
-}
-
-.contenedor .navbar a,
-.contenedor .menu a,
-.contenedor .desplegable a{
-	display: block;
-	padding: 10px;
-	text-decoration: none;
 	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
+.flex-container{
+	display: flex;
+	justify-content: center;
+}
+
+.navbar a{
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
 	color: white;
-	font-weight: bold;
+	cursor: crosshair;
 }
 
-.navbar-elemento:hover{
+.navbar a:hover{
     background-color: #0065AB;
-    color: white
 }
 
-.desplegable{
+.menuDos{
     display: none;
-}
-
-.contenedor .menu,
-.contenedor .desplegable{
-	background-color: #454545;
-}
-
-.contenedor .menu a:hover,
-.contenedor .desplegable a:hover{
-	background-color: #6B6B6B;
 }
